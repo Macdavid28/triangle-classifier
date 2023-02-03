@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +8,51 @@
     <title>△Triangle tracker△</title>
     <script src="js/jquery-3.6.3.min.js"></script>
     <script src="js/triangle.js"></script>
+    <link rel="stylesheet" href="triangle.css">
 </head>
+
 <body>
-    
+    <div class="container">
+        <div class="head-row">
+            <h1>▲Triangle Tracker▲</h1>
+        </div>
+        <div class="head-row2">
+            <h2>Input the lengths below to generate the triangle</h2>
+        </div>
+        <div class="inputs">
+            <form action="" id="form-uno">
+                <div id="lenght1">
+                    <input type="number" placeholder="Length of the first side" id="length1" required>
+                </div>
+                <br>
+                <div id="length2">
+                    <input type="number" placeholder="Length of the second side" id="length2" required>
+                </div>
+                <br>
+                <div id="length3">
+                    <input type="number" placeholder="Length of the third side" id="length3" required>
+                </div>
+                <br>
+                <button type="submit" class="btn">Generate</button>
+            </form>
+        </div>
+    </div>
+    <div id="equilateral">
+        <img src="img/download.png" alt="" height="150px">
+        <h1>Equilateral Triangle</h1>
+    </div>
+    <div id="isosceles">
+        <img src="img/iso.jpg" alt="" height="200px" width="200px" id="img">
+        <h1>Isoceles Triangle</h1>
+    </div>
+    <div id="scalene">
+        <img src="img/scalene.png" alt="" height="150px" width="200px" id="img">
+        <h1>Scalene Triangle</h1>
+    </div>
+    <div id="not">
+        <img src="img/not.jpeg" alt="" id="img" width="400px" height="400px">
+        <h1 id="no">Your input does not form a triangle</h1>
+    </div>
 </body>
+
 </html>

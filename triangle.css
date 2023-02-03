@@ -1,0 +1,26 @@
+#equilateral,#isosceles,#scalene,#not{
+    display: none;
+}body{
+    background: white;
+    text-align: center;
+    background: lightblue;
+}
+h1,h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+input{
+    border: 1px solid black;
+    width: 350px;
+    height: 30px;
+    border-radius: 10px;
+}
+button{
+    width: 90px;
+    height: 30px;
+    border-radius: 12px;
+    font-family: monospace;
+}
+
+img{
+    border-radius: 12px;
+}
